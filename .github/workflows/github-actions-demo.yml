@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SECRETNIS: ${{secrets.SECRET}}
-    
     steps:
       - name: New run
         with:
